@@ -41,7 +41,6 @@ const Movies = () => {
     e.preventDefault();
     const form = e.target;
     const queryNormalized = form.query.value.toLowerCase().trim();
-    console.log(queryNormalized);
 
     setSearchParams({ query: queryNormalized });
   };
